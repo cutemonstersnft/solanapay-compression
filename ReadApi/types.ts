@@ -139,6 +139,7 @@ export type ReadApiAsset = {
 };
 
 export type ReadApiAssetList = {
+  filter(arg0: (asset: any) => boolean): unknown;
   total: number;
   limit: number;
 
